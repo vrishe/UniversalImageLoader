@@ -1,0 +1,19 @@
+# Created by https://www.gitignore.io
+
+### XamarinStudio ###
+[Bb]in/
+[Oo]bj/
+[Pp]ackages/
+[Cc]omponents/
+
+*.userprefs
+*.designer.cs
+
+
+### Project Specific ###
+/.private
+
+
+### Plaftorm: Windows ###
+[Tt]humbs.db
+

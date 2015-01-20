@@ -1,0 +1,55 @@
+﻿<metadata>
+	<!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+
+  <remove-node path="/api/package[@name='com.nostra13.universalimageloader.cache.disc.impl.ext']/class[@name='StrictLineReader']" />
+  <remove-node path="/api/package[@name='com.nostra13.universalimageloader.cache.disc.impl.ext']/class[@name='StrictLineReader.1']" />
+  <remove-node path="/api/package[@name='com.nostra13.universalimageloader.cache.disc.impl.ext']/class[@name='Util']" />
+
+  <remove-node path="/api/package[@name='com.nostra13.universalimageloader.core']/class[@name='LoadAndDisplayImageTask']" />
+  <remove-node path="/api/package[@name='com.nostra13.universalimageloader.core']/class[@name='LoadAndDisplayImageTask.1']" />
+  <remove-node path="/api/package[@name='com.nostra13.universalimageloader.core']/class[@name='LoadAndDisplayImageTask.2']" />
+  <remove-node path="/api/package[@name='com.nostra13.universalimageloader.core']/class[@name='LoadAndDisplayImageTask.3']" />
+  <remove-node path="/api/package[@name='com.nostra13.universalimageloader.core']/class[@name='LoadAndDisplayImageTask.TaskCancelledException']" />
+  <remove-node path="/api/package[@name='com.nostra13.universalimageloader.core']/class[@name='ProcessAndDisplayImageTask']" />
+  <remove-node path="/api/package[@name='com.nostra13.universalimageloader.core']/class[@name='ImageLoader']/method[@name='getDiscCache']" />
+  <remove-node path="/api/package[@name='com.nostra13.universalimageloader.core']/class[@name='ImageLoader']/method[@name='clearDiscCache']" />
+  <remove-node path="/api/package[@name='com.nostra13.universalimageloader.core.assist.deque']/class[@name='LinkedBlockingDeque.AbstractItr']" />
+  <remove-node path="/api/package[@name='com.nostra13.universalimageloader.core.assist.deque']/class[@name='LinkedBlockingDeque.Itr']" />
+  <remove-node path="/api/package[@name='com.nostra13.universalimageloader.core.assist.deque']/class[@name='LinkedBlockingDeque.DescendingItr']" />
+  <remove-node path="/api/package[@name='com.nostra13.universalimageloader.core.assist.deque']/interface[@name='Deque']/method[@name='add']" />
+  <remove-node path="/api/package[@name='com.nostra13.universalimageloader.core.assist.deque']/interface[@name='Deque']/method[@name='contains']" />
+  <remove-node path="/api/package[@name='com.nostra13.universalimageloader.core.assist.deque']/interface[@name='Deque']/method[@name='element']" />
+  <remove-node path="/api/package[@name='com.nostra13.universalimageloader.core.assist.deque']/interface[@name='Deque']/method[@name='iterator']" />
+  <remove-node path="/api/package[@name='com.nostra13.universalimageloader.core.assist.deque']/interface[@name='Deque']/method[@name='offer']" />
+  <remove-node path="/api/package[@name='com.nostra13.universalimageloader.core.assist.deque']/interface[@name='Deque']/method[@name='peek']" />
+  <remove-node path="/api/package[@name='com.nostra13.universalimageloader.core.assist.deque']/interface[@name='Deque']/method[@name='poll']" />
+  <remove-node path="/api/package[@name='com.nostra13.universalimageloader.core.assist.deque']/interface[@name='Deque']/method[@name='remove']" />
+  <remove-node path="/api/package[@name='com.nostra13.universalimageloader.core.assist.deque']/interface[@name='Deque']/method[@name='size']" />
+  <remove-node path="/api/package[@name='com.nostra13.universalimageloader.core.assist.deque']/interface[@name='BlockingDeque']/method[@name='add']" />
+  <remove-node path="/api/package[@name='com.nostra13.universalimageloader.core.assist.deque']/interface[@name='BlockingDeque']/method[@name='addFirst']" />
+  <remove-node path="/api/package[@name='com.nostra13.universalimageloader.core.assist.deque']/interface[@name='BlockingDeque']/method[@name='addLast']" />
+  <remove-node path="/api/package[@name='com.nostra13.universalimageloader.core.assist.deque']/interface[@name='BlockingDeque']/method[@name='contains']" />
+  <remove-node path="/api/package[@name='com.nostra13.universalimageloader.core.assist.deque']/interface[@name='BlockingDeque']/method[@name='element']" />
+  <remove-node path="/api/package[@name='com.nostra13.universalimageloader.core.assist.deque']/interface[@name='BlockingDeque']/method[@name='iterator']" />
+  <remove-node path="/api/package[@name='com.nostra13.universalimageloader.core.assist.deque']/interface[@name='BlockingDeque']/method[@name='offer']" />
+  <remove-node path="/api/package[@name='com.nostra13.universalimageloader.core.assist.deque']/interface[@name='BlockingDeque']/method[@name='peek']" />
+  <remove-node path="/api/package[@name='com.nostra13.universalimageloader.core.assist.deque']/interface[@name='BlockingDeque']/method[@name='poll']" />
+  <remove-node path="/api/package[@name='com.nostra13.universalimageloader.core.assist.deque']/interface[@name='BlockingDeque']/method[@name='push']" />
+  <remove-node path="/api/package[@name='com.nostra13.universalimageloader.core.assist.deque']/interface[@name='BlockingDeque']/method[@name='put']" />
+  <remove-node path="/api/package[@name='com.nostra13.universalimageloader.core.assist.deque']/interface[@name='BlockingDeque']/method[@name='remove']" />
+  <remove-node path="/api/package[@name='com.nostra13.universalimageloader.core.assist.deque']/interface[@name='BlockingDeque']/method[@name='removeFirstOccurrence']" />
+  <remove-node path="/api/package[@name='com.nostra13.universalimageloader.core.assist.deque']/interface[@name='BlockingDeque']/method[@name='removeLastOccurrence']" />
+  <remove-node path="/api/package[@name='com.nostra13.universalimageloader.core.assist.deque']/interface[@name='BlockingDeque']/method[@name='offerFirst']" />
+  <remove-node path="/api/package[@name='com.nostra13.universalimageloader.core.assist.deque']/interface[@name='BlockingDeque']/method[@name='offerLast']" />
+  <remove-node path="/api/package[@name='com.nostra13.universalimageloader.core.assist.deque']/interface[@name='BlockingDeque']/method[@name='size']" />
+  <remove-node path="/api/package[@name='com.nostra13.universalimageloader.core.assist.deque']/interface[@name='BlockingDeque']/method[@name='take']" />
+
+<!--  <remove-node path="/api/package[@name='com.nostra13.universalimageloader.utils']" />-->
+
+</metadata>
